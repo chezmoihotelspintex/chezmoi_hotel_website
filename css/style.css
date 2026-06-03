@@ -798,6 +798,11 @@ footer label {
     line-height: 10vh;
   }
 
+  .logo-container {
+    /* height: 10vh; */
+    width: 30vw;
+  }
+
   header ul {
     position: absolute;
     /* top: 60px; */
