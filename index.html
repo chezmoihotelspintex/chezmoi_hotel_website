@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <meta http-equiv="refresh" content="0; url=sorry.html" /> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Affordable hotel located in Accra, and 15 minutes drive away from Accra International Airport."
+    />
+    <meta
+      name="keywords"
+      content="Affordable hotel, Hotel at Spintex, Hotel in Accra, Hotel near Accra International Airport, Comfortable hotel, Serene environment, Convenient location, Room service, Pick-up and drop-off, Free Wi-Fi, Car rental, Bed and breakfast, Hotel accommodation, Hotel booking, Hotel reservation, Hotel deals, Hotel offers, Hotel discounts"
+    />
+
+    <title>Chez Moi Hotel</title>
+
+    <!-- custom stle sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- owl carousel style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- all pluging style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+      integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google tag (gtag.js) - for tracking website traffic from Google Ads -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-10793542471"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-10793542471");
+    </script>
+  </head>
+
+  <body>
+    <!----------------NAVBAR START------------------>
+    <header class="top-header">
+      <div class="content flex_space" id="">
+        <div class="logo-container">
+          <a href="#home"><img src="images/logo.jpeg" alt="Logo" /></a>
+        </div>
+        <div class="navlinks">
+          <ul id="menulist">
+            <li><a href="#home" class="nav-menu-link active">home</a></li>
+            <li><a href="#about" class="nav-menu-link">about</a></li>
+            <li><a href="#rooms" class="nav-menu-link">rooms</a></li>
+            <li><a href="#gallery" class="nav-menu-link">gallery</a></li>
+            <li><a href="#services" class="nav-menu-link">services</a></li>
+            <li><a href="#contact" class="nav-menu-link">contact</a></li>
+            <li>
+              <button class="primary-btn btn-sm my-2" onclick="scrollToRooms()">
+                VIEW ROOMS
+              </button>
+            </li>
+          </ul>
+          <span class="fa fa-bars" onclick="menutoggle()"></span>
+        </div>
+      </div>
+    </header>
+    <!----------------NAVBAR ENDS------------------>
+
+    <!----------------HOME SECTION START------------------>
+    <section class="home" id="home">
+      <div class="content">
+        <div class="home-section-carousel owl-carousel owl-theme">
+          <div class="item">
+            <img src="images/reception.jpg" alt="reception" />
+            <div class="text home-carousel-text">
+              <h1>Reception</h1>
+              <p>Welcoming Ambience</p>
+              <div class="flex">
+                <div class="flex">
+                  <button class="primary-btn" onclick="scrollToRooms()">
+                    VIEW ROOMS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/exterior.webp" alt="exterior-view" />
+            <div class="text home-carousel-text">
+              <h1>Chez Moi Hotel</h1>
+              <p>Home away from home</p>
+              <div class="flex">
+                <div class="flex">
+                  <button class="primary-btn" onclick="scrollToRooms()">
+                    VIEW ROOMS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/room_executive.jpg" alt="room" />
+            <div class="text home-carousel-text">
+              <h1>Be Our Guest</h1>
+              <p>Rooms at affordable rates</p>
+              <div class="flex">
+                <div class="flex">
+                  <button class="primary-btn" onclick="scrollToRooms()">
+                    VIEW ROOMS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------HOME SECTION END------------------>
+
+    <!----------------ABOUT SECTION START------------------>
+    <section class="about top" id="about">
+      <div class="container flex">
+        <div class="left">
+          <div class="heading">
+            <!-- <h1>WELCOME</h1> -->
+            <h2>About Chez Moi</h2>
+          </div>
+          <p>
+            A hotel located at Spintex, in Accra, and about 15 minutes drive
+            away from Kotoka International Airport. Chez Moi Hotel is arguably
+            the most affordable hotel at Spintex, a prime location in the heart
+            of Accra. At Chez Moi, we offer comfort, in a serene environment,
+            and ensure that we cater to the needs of guest, so that when our
+            guests check out, they check out feeling satisfied. The hotel
+            happens to be located in the same community as some of Ghana's
+            largest & finest shopping mall chains - China Mall, Palace Mall, Max
+            Mart, Orca Deco, Melcom, etc. Some of the finest restaurants also
+            happens to be within close proximity. Therefore, providing a
+            convenient stay for guest that like to go shopping. For the food
+            lovers, Chez Moi also happens to find itself in the same cummunity
+            as some of Ghana's best restaurants, serving local & continental.
+            And if you are a night life lover, there are a number of pubs and
+            night clubs within distance to chill out for the night.
+          </p>
+        </div>
+        <div class="right">
+          <img src="images/reception.jpg" alt="reception" />
+        </div>
+      </div>
+    </section>
+    <!----------------ABOUT SECTION END------------------>
+
+    <!----------------FAMOUS QUOTE SECTION START------------------>
+    <section class="counter top">
+      <div class="famousQuote">
+        <h1>"There is only one boss - the guest."</h1>
+      </div>
+    </section>
+    <!----------------FAMOUS QUOTE SECTION START------------------>
+
+    <!-------------------- ROOMS SECTION ------------------->
+    <section class="rooms" id="rooms">
+      <div class="container top">
+        <div class="heading">
+          <!-- <h1>EXPOLRE</h1> -->
+          <h2>Rooms</h2>
+          <p>Explore our rooms</p>
+        </div>
+
+        <div class="content mtop">
+          <div class="owl-carousel room-section-carousel owl-theme">
+            <div class="items room-card">
+              <div class="image">
+                <img src="images/room_suite.jpg" alt="Suite-room" />
+              </div>
+              <div class="text">
+                <h2 class="">Suite</h2>
+
+                <div class="amenities">
+                  <i class="fa-solid fa-bed"></i>Queen bed (max: 2 per room)
+                  <br />
+                  <i class="fa-solid fa-shower"></i>Private bathroom <br />
+                  <i class="fa-regular fa-snowflake"></i>Air-conditioning <br />
+                  <i class="fa-solid fa-tv"></i>Flat-screen TV
+                </div>
+
+                <div class="button flex">
+                  <button
+                    type="button"
+                    class="btn btn-info btn-sm me-1 room-details-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#roomModal"
+                    value="suite"
+                  >
+                    Details
+                  </button>
+
+                  <a
+                    target="_blank"
+                    class="btn btn-success btn-sm me-1"
+                    role="button"
+                    href="https://wa.me/233554452265"
+                    >WhatsApp</a
+                  >
+
+                  <h5>
+                    ¢400
+                    <span class="nightly-rate">/ night</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="items room-card">
+              <div class="image">
+                <img src="images/room_executive.jpg" alt="Executive-room" />
+              </div>
+              <div class="text">
+                <h2 class="">Executive</h2>
+
+                <div class="amenities">
+                  <i class="fa-solid fa-bed"></i>Queen bed (max: 2 per room)
+                  <br />
+                  <i class="fa-solid fa-shower"></i>Private bathroom <br />
+                  <i class="fa-regular fa-snowflake"></i>Air-conditioning <br />
+                  <i class="fa-solid fa-tv"></i>Flat-screen TV
+                </div>
+
+                <div class="button flex">
+                  <button
+                    type="button"
+                    class="btn btn-info btn-sm me-1 room-details-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#roomModal"
+                    value="executive"
+                  >
+                    Details
+                  </button>
+
+                  <a
+                    target="_blank"
+                    class="btn btn-success btn-sm me-1"
+                    role="button"
+                    href="https://wa.me/233554452265"
+                    >WhatsApp</a
+                  >
+
+                  <h5>
+                    ¢300
+                    <span class="nightly-rate">/ night</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="items room-card">
+              <div class="image">
+                <img src="images/room_standard.jpg" alt="Standard-room" />
+              </div>
+              <div class="text">
+                <h2 class="">Standard</h2>
+
+                <div class="amenities">
+                  <i class="fa-solid fa-bed"></i>Double bed (max: 2 per room)
+                  <br />
+                  <i class="fa-solid fa-shower"></i>Private bathroom <br />
+                  <i class="fa-regular fa-snowflake"></i>Air-conditioning <br />
+                  <i class="fa-solid fa-tv"></i>Flat-screen TV
+                </div>
+
+                <div class="button flex">
+                  <button
+                    type="button"
+                    class="btn btn-info btn-sm me-1 room-details-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#roomModal"
+                    value="standard"
+                  >
+                    Details
+                  </button>
+
+                  <a
+                    target="_blank"
+                    class="btn btn-success btn-sm me-1"
+                    role="button"
+                    href="https://wa.me/233554452265"
+                    >WhatsApp</a
+                  >
+
+                  <h5>
+                    ¢250
+                    <span class="nightly-rate">/ night</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="items room-card">
+              <div class="image">
+                <img
+                  src="images/room_standard_mini.jpg"
+                  alt="Standard-Mini-room"
+                />
+              </div>
+              <div class="text">
+                <h2 class="">Standard Mini</h2>
+
+                <div class="amenities">
+                  <i class="fa-solid fa-bed"></i>Double bed (max: 2 per room)
+                  <br />
+                  <i class="fa-solid fa-shower"></i>Private bathroom <br />
+                  <i class="fa-regular fa-snowflake"></i>Air-conditioning <br />
+                  <i class="fa-solid fa-tv"></i>Flat-screen TV
+                </div>
+
+                <div class="button flex">
+                  <button
+                    type="button"
+                    class="btn btn-info btn-sm me-1 room-details-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#roomModal"
+                    value="standard-mini"
+                  >
+                    Details
+                  </button>
+
+                  <a
+                    target="_blank"
+                    class="btn btn-success btn-sm me-1"
+                    role="button"
+                    href="https://wa.me/233554452265"
+                    >WhatsApp</a
+                  >
+
+                  <h5>
+                    ¢190
+                    <span class="nightly-rate">/ night</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Room Modal -->
+        <div
+          class="modal fade"
+          id="roomModal"
+          tabindex="-1"
+          aria-labelledby="roomModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="roomModalLabel"></h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <!-- room carousel pop up in modal view -->
+              <div id="roomCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/toilet.jpg"
+                      class="d-block w-100"
+                      alt="toilet"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/bathroom.jpg"
+                      class="d-block w-100"
+                      alt="bathroom"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/room_suite.jpg"
+                      class="d-block w-100 room-img"
+                      alt="room"
+                    />
+                  </div>
+                </div>
+                <p class="room-carousel-text"></p>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#roomCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#roomCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------GALLERY SECTION START-------------------->
+    <section class="gallery" id="gallery">
+      <div class="container top">
+        <div class="heading">
+          <!-- <h1>PHOTOS</h1> -->
+          <h2>Gallery</h2>
+          <p>Check out our facility</p>
+        </div>
+      </div>
+
+      <div class="content mtop">
+        <div class="gallery-section-carousel owl-carousel owl-theme">
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img1.png" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Exterior</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img2.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Room</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img3.png" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Corridor</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/bathroom.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Bathroom</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/reception.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Reception</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/toilet.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Toilet</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/room_standard.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Room</h4>
+            </div>
+          </div>
+
+          <!-- Repeat of gallery images -->
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img1.png" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Exterior</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img2.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Room</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/gallery_img3.png" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Corridor</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/bathroom.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Bathroom</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/reception.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Reception</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/toilet.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Toilet</h4>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery/room_standard.jpg" alt="amenities" />
+            </div>
+            <div class="overlay">
+              <!-- <span class="fa fa-plus"> </span> -->
+              <h4>Room</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------GALLERY SECTION END-------------------->
+
+    <!--------------------SERVICES SECTION START-------------------->
+    <section class="services top" id="services">
+      <div class="container">
+        <div class="heading">
+          <!-- <h1>SERVICES</h1> -->
+          <h2>Services</h2>
+          <p>We offer a range of services to make your stay comfortable</p>
+        </div>
+
+        <div class="content flex_space">
+          <div class="left grid2">
+            <div class="box">
+              <div class="text">
+                <i class="fa-solid fa-martini-glass-citrus"></i>
+                <h3>Room Service</h3>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <i class="fa-solid fa-van-shuttle"></i>
+                <h3>Pick-up & Drop off</h3>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <i class="fa-solid fa-wifi"></i>
+                <h3>Free Wi-Fi</h3>
+              </div>
+            </div>
+            <!-- <div class="box">
+              <div class="text">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>In-house Restaurant</h3>
+              </div>
+            </div> -->
+            <div class="box">
+              <div class="text">
+                <i class="fa-solid fa-car"></i>
+                <h3>Car Rental</h3>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="images/services_section_img.jpg" alt="services-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------SERVICES SECTION END-------------------->
+
+    <!--------------------FOOTER SECTION START------------------------->
+    <footer>
+      <div class="container grid" id="contact">
+        <div class="box">
+          <!-- <img src="images/logo-2.png" alt="" /> -->
+          <div>
+            <!-- Google map location -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15881.968744708383!2d-0.0953125!3d5.6416875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf851951fbc90b%3A0x674e113316f73904!2sChez%20Moi%20Hotel%2C%20Spintex!5e0!3m2!1sen!2sgh!4v1693051221409!5m2!1sen!2sgh"
+              width="100%"
+              height="240"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <!-- <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p> -->
+
+          <div class="icon">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#get-discount">Get discount</a></li> -->
+          </ul>
+        </div>
+
+        <div class="box contact-us">
+          <h2>Contact Us</h2>
+          <p>
+            Location: Plot N<span>o</span> 193 Off Spintex Road, Spintex, Accra
+          </p>
+          <!-- <i class="fa fa-location-dot"></i>
+          <label>1201 park street, Avenue, Comm 11, Tema. </label> <br /> -->
+          <i class="fa fa-phone"></i>
+          <label>+233 55 445 2265</label> <br />
+          <i class="fa fa-envelope"></i>
+          <label>chezmoispintex@gmail.com</label> <br />
+        </div>
+      </div>
+    </footer>
+    <!--------------------FOOTER SECTION END------------------------->
+
+    <!--------------------COPY RIGHT SECTION START------------------------->
+    <div class="legal">
+      <p class="container">
+        &copy; <span class="year"></span> | Chez Moi Hotel | All Rights Reserved
+      </p>
+      <p class="developed-by">Developed by: Caleb Selormey</p>
+    </div>
+    <!--------------------COPY RIGHT SECTION END------------------------->
+
+    <!-- jquery script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- owl carousel script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Bootstrap JavaScript-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
+      integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- custom script -->
+    <script src="site.js"></script>
+    <!-- fontawesome script -->
+    <script
+      src="https://kit.fontawesome.com/032d11eac3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
